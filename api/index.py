@@ -55,4 +55,4 @@ def get_id(id):
     user = collection.find_one({"id": id}, {"_id": 0})
     return user
 
-app.run()
+handle=app
